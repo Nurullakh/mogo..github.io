@@ -1,0 +1,157 @@
+.container 
+	width: 96%
+	max-width: 1200px
+	margin: 0 auto
+
+@media (max-width: 1200px)
+	header
+		.nav
+			justify-content: space-around
+			&__logo
+				margin-bottom: 20px
+		.intro
+			.intro__inner
+				h2
+					font-size: 65px
+				h1
+					font-size: 135px
+	.about
+		.row
+			flex-direction: column
+			align-items: center
+			&__item
+				margin: 10px
+	.team
+		.row
+			justify-content: space-around
+	.blog
+		.row
+			justify-content: space-around
+	footer
+		.footer__wrap
+			justify-content: space-around
+
+@media (max-width: 991px)
+	header
+		.nav
+			justify-content: space-around
+		.intro
+			.intro__inner
+				h2
+					font-size: 50px
+				h1
+					font-size: 115px
+	.statistics
+		.statistics__wrap
+			.statistics__block
+				.statistics__num
+					font-size: 50px
+				.statistics__info
+					font-size: 10px
+	.reviews-slider
+		.slider
+			.slider__text
+				.slider__about
+					font-size: 17px
+	.work
+		.slider
+			.slider__text
+				.slider__about
+					font-size: 17px
+	.footer
+		&__one
+			margin-bottom: 35px
+
+@media (max-width: 767px)
+	header
+		.nav
+			nav
+				a
+					margin: 0 26px
+					&:hover
+						color: #fff
+					&:after
+						display: none
+				a:nth-child(6), a:nth-child(7)
+					display: none
+		.intro
+			.intro__inner
+				h2
+					font-size: 40px
+				h1
+					font-size: 76px
+	.amazing
+		.services
+			.services__item
+				.services__block
+					font-size: 13px
+	.design
+		.design__ing
+			.design__ipad
+				width: 100%
+			.design__iphone
+				width: 40%
+	.whatwedo
+		.whatwedo__inner
+			.whatwedo__block
+				width: 100%
+				.whatwedo__img
+					img
+						width: 100%
+	.company
+		.company__item
+			justify-content: space-around
+	.reviews
+		.reviews__wrap
+			.reviews__block
+				width: 60%
+	.footer
+		.instagram
+			display: none
+@media (max-width: 575px)
+	header
+		.nav
+			.nav__menu
+				flex-direction: column
+				a
+					margin: 10px 25px
+				a:nth-child(2)
+					display: none
+		.intro
+			.intro__inner
+				margin-top: 130px
+				h2
+					font-size: 20px
+				h1
+					font-size: 35px
+			.intro__row
+				.intro__colum
+					display: none
+	.amazing
+		display: none
+	.reviews-slider
+		display: none
+	.statistics
+		display: none
+	.company
+		display: none
+	.work
+		.work__wrap
+			flex-direction: column
+		.slider
+			display: none
+	.reviews
+		.reviews__wrap
+			.reviews__block
+				width: 100%
+	.blog
+		.row
+			.blog__item
+				width: 96%
+				.blog__header
+					.blog__img
+						img
+							width: 100%
+	.footer
+		.footer__one
+			display: none
